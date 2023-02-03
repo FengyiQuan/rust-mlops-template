@@ -188,3 +188,9 @@ Please input your guess.
 You guessed: 15
 You win!
 ```
+
+### Pattern Count CLI
+
+Change into `pattern-count-cli` directory and run cargo run -- 1 'test.txt' to list all lines that contains `1` in the file 'test.txt'.
+
+
