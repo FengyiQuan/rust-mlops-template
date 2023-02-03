@@ -1,4 +1,4 @@
-[![Rust CI/CD Pipeline](https://github.com/FengyiQuan/rust-mlops-template/blob/main/.github/workflows/rust.yml/badge.svg)](https://github.com/FengyiQuan/rust-mlops-template/blob/main/.github/workflows/rust.yml)
+[![Rust CI/CD Pipeline](https://github.com/FengyiQuan/rust-mlops-template/actions/workflows/rust.yml/badge.svg)](https://github.com/FengyiQuan/rust-mlops-template/actions/workflows/rust.yml)
 
 # rust-mlops-template
 
