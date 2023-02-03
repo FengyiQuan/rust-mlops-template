@@ -192,12 +192,13 @@ You win!
 ### [Pattern Count CLI](https://github.com/FengyiQuan/rust-mlops-template/tree/main/pattern-count-cli)
 
 Change into [`/pattern-count-cli`] directory and `run cargo run -- 1 'test.txt'` to list all lines that contains `1` in the file 'test.txt'.
+Usage: `run cargo run -- <pattern> <file-path>`
 
 ### [Marco Polo AWS Lambda](https://github.com/FengyiQuan/rust-mlops-template/tree/main/marco-polo-lambda)
 
 Deploy A singple function to AWS lambda.
 
-Useage:
+Usage:
 ```bash
 cargo lambda invoke --remote \
                 --data-ascii '{"name": "Marco"}' \
