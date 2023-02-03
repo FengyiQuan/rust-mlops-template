@@ -171,7 +171,7 @@ To run everything locally do: `make all`.
 
 ### Simple Guessing Game
 
-Change into `guessing-game` directory and run `cargo run` and you should see the following output. It allows user to guessing a number.
+Change into [`/guessing-game`](https://github.com/FengyiQuan/rust-mlops-template/tree/main/guessing-game) directory and run `cargo run` and you should see the following output. It allows user to guessing a number.
 
 ```bash
 Guess the number!
@@ -191,6 +191,6 @@ You win!
 
 ### Pattern Count CLI
 
-Change into `pattern-count-cli` directory and run cargo run -- 1 'test.txt' to list all lines that contains `1` in the file 'test.txt'.
+Change into [`/pattern-count-cli`](https://github.com/FengyiQuan/rust-mlops-template/tree/main/pattern-count-cli) directory and run cargo run -- 1 'test.txt' to list all lines that contains `1` in the file 'test.txt'.
 
 
