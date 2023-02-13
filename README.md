@@ -1,4 +1,4 @@
-[![Rust CI/CD Pipeline](https://github.com/noahgift/rust-mlops-template/actions/workflows/rust.yml/badge.svg)](https://github.com/noahgift/rust-mlops-template/actions/workflows/rust.yml)
+[![Rust CI/CD Pipeline](https://github.com/FengyiQuan/rust-mlops-template/actions/workflows/rust.yml/badge.svg)](https://github.com/FengyiQuan/rust-mlops-template/actions/workflows/rust.yml)
 
 # rust-mlops-template
 
@@ -169,9 +169,9 @@ jobs:
 
 To run everything locally do: `make all`.
 
-### Simple Guessing Game
+### [Simple Guessing Game](https://github.com/FengyiQuan/rust-mlops-template/tree/main/guessing-game)
 
-Change into `guessing-game` directory and run `cargo run` and you should see the following output. It allows user to guessing a number.
+Change into [`/guessing-game`] directory and run `cargo run` and you should see the following output. It allows user to guessing a number.
 
 ```bash
 Guess the number!
@@ -189,8 +189,23 @@ You guessed: 15
 You win!
 ```
 
-### Pattern Count CLI
+### [Pattern Count CLI](https://github.com/FengyiQuan/rust-mlops-template/tree/main/pattern-count-cli)
 
-Change into `pattern-count-cli` directory and run cargo run -- 1 'test.txt' to list all lines that contains `1` in the file 'test.txt'.
+Change into [`/pattern-count-cli`] directory and `run cargo run -- 1 'test.txt'` to list all lines that contains `1` in the file 'test.txt'.
+Usage: `run cargo run -- <pattern> <file-path>`
 
+### [Marco Polo AWS Lambda](https://github.com/FengyiQuan/rust-mlops-template/tree/main/marco-polo-lambda)
 
+Deploy A singple function to AWS lambda.
+
+Usage:
+```bash
+cargo lambda invoke --remote \
+                --data-ascii '{"name": "Marco"}' \
+                --output-format json \
+                marco-polo-lambda
+{
+  "msg": "Marco says Polo",
+  "req_id": "82c90ae1-4bce-4eac-8de2-c8952d2b376d"
+}
+```

@@ -17,7 +17,7 @@ fn main() {
 
     for line in content.lines() {
         if line.contains(&args.pattern) {
-            println!("{}", line);
+            println!("{line}");
         }
     }
 }
