@@ -1,0 +1,16 @@
+[package]
+name = "snake"
+version = "0.1.0"
+edition = "2021"
+authors = ["Fengyi Quan <840073588z@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "0.8.5"
+bevy = "0.9.1"
+# pison dependencies
+# piston = "0.53.0"
+# piston2d-graphics = "0.43.0"
+# pistoncore-glutin_window = "0.70.1"
+# piston2d-opengl_graphics = "0.82.0"
