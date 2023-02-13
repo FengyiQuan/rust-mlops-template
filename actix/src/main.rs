@@ -7,7 +7,7 @@ D. /version that returns the version of the service
 
 use actix_web::{get, App, HttpResponse, HttpServer, Responder};
 //import the random fruit function from the lib.rs file
-use webdocker::random_fruit;
+use actix::random_fruit;
 
 //create a function that returns a hello world
 #[get("/")]
