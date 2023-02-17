@@ -220,11 +220,11 @@ aws ecr get-login-password --region us-east-1 | docker login --username <usernam
 ```
 2. Build your Docker image using the following command. For information on building a Docker file from scratch see the instructions. You can skip this step if your image is already built:
 ```bash
-docker build -t task-tracker .
+docker build -t <img> .
 ```
 3. After the build completes, tag your image so you can push the image to this repository:
 ```bash
-docker tag task-tracker:latest <path>
+docker tag <img-name> <path>
 ```
 4. Run the following command to push this image to your newly created AWS repository:
 ```bash
