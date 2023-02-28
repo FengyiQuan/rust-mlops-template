@@ -196,7 +196,7 @@ Usage: `run cargo run -- <pattern> <file-path>`
 
 ### [Marco Polo AWS Lambda](https://github.com/FengyiQuan/rust-mlops-template/tree/main/marco-polo-lambda)
 
-Deploy A singple function to AWS lambda.
+Deploy a simple function to AWS lambda.
 
 Usage:
 ```bash
@@ -208,4 +208,25 @@ cargo lambda invoke --remote \
   "msg": "Marco says Polo",
   "req_id": "82c90ae1-4bce-4eac-8de2-c8952d2b376d"
 }
+```
+
+### [Actix (Random Fruits)](https://github.com/FengyiQuan/rust-mlops-template/tree/main/actix)
+
+Deploy a simple actix web service to App Runner from ECR.
+
+1. Retrieve an authentication token and authenticate your Docker client to your registry. Use the AWS CLI:
+```bash
+aws ecr get-login-password --region us-east-1 | docker login --username <username> --password-stdin <password>
+```
+2. Build your Docker image using the following command. For information on building a Docker file from scratch see the instructions. You can skip this step if your image is already built:
+```bash
+docker build -t <img> .
+```
+3. After the build completes, tag your image so you can push the image to this repository:
+```bash
+docker tag <img-name> <path>
+```
+4. Run the following command to push this image to your newly created AWS repository:
+```bash
+docker push <path>
 ```
