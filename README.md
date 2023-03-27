@@ -230,3 +230,18 @@ docker tag <img-name> <path>
 ```bash
 docker push <path>
 ```
+
+### [Snake](https://github.com/FengyiQuan/rust-mlops-template/tree/main/snake) 
+
+This is a simple implementation of the classic snake game using Bevy game engine. The objective of the game is to control the snake to eat food while avoiding collision with its own body or the walls.
+
+#### Control
+
+Use arrow keys or WASD to control the snake's direction:
+```
+Up: ↑
+Down: ↓
+Left: ←
+Right: →
+```
+From [bevy-snake](https://github.com/marcusbuffett/bevy_snake/blob/0.7/src/main.rs](https://mbuffett.com/posts/bevy-snake-tutorial/)(https://mbuffett.com/posts/bevy-snake-tutorial/))
