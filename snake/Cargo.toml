@@ -8,7 +8,8 @@ authors = ["Fengyi Quan <840073588z@gmail.com>"]
 
 [dependencies]
 rand = "0.8.5"
-bevy = "0.9.1"
+bevy = "0.7.0"
+# bevy = "0.7.0"
 # pison dependencies
 # piston = "0.53.0"
 # piston2d-graphics = "0.43.0"
