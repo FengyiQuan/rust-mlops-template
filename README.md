@@ -7,6 +7,10 @@ This repo is more of a cookbook style. For a more gentle step by step guide to M
 
 ![8-3-modern-rust-development](https://user-images.githubusercontent.com/58792/211929407-633fddb8-8f44-4d30-861c-30aaa7b481e3.png)
 
+## Learning
+[rust_sandbox](https://github.com/bradtraversy/rust_sandbox)
+[YouTube](https://www.youtube.com/watch?v=zF34dRivLOw)
+
 ## Demo Hitlist (Will Solve hopefully almost every day/weekly)
 
 - Do an [inline python example](https://github.com/fusion-engineering/inline-python)
